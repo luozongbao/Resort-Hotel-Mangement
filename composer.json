@@ -33,6 +33,7 @@
         }
     },
     "scripts": {
+        "lint": "phpcs --standard=phpcs.xml --extensions=php ./app",
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
