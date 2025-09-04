@@ -22,7 +22,7 @@ This issue covers the initial setup of the Laravel project, configuration of the
 ## Technical Details / Tasks
 
 1.  **Initialize Laravel Project**:
-    -   Use Composer to create a new Laravel project: `composer create-project laravel/laravel resort-hotel-mangement`.
+    -   Use Composer to create a new Laravel project: `composer create-project laravel/laravel resort-hotel-management`.
 
 2.  **Configure Docker Environment**:
     -   Create a `docker-compose.yml` file at the project root.
