@@ -85,7 +85,8 @@ async function fetchRooms() {
 
 // Subscribes to the WebSocket channel for real-time updates
 function listenForUpdates() {
-  echo.channel('resort-channel') // Example channel name
+  // Replace 'YOUR_TENANT_ID' with the actual tenant ID, e.g. from props or store
+  echo.channel(`private-tenant.${YOUR_TENANT_ID}`) // Consistent channel naming
     .listen('.RoomStatusChanged', (event) => {
       const updatedRoom = event.room;
       const roomIndex = rooms.value.findIndex(r => r.id === updatedRoom.id);
