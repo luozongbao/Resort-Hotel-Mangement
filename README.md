@@ -1,11 +1,56 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Resort Hotel Management System
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+This is a SaaS platform designed to help resort owners efficiently manage their properties and operations.
+
+## Prerequisites
+
+-   Docker
+-   Docker Compose
+-   Composer
+
+## Development Environment Setup
+
+1.  **Clone the repository:**
+    ```bash
+    git clone <repository-url>
+    cd Resort-Hotel-Mangement
+    ```
+
+2.  **Create the environment file:**
+    ```bash
+    cp .env.example .env
+    ```
+
+3.  **Build and run the Docker containers:**
+    ```bash
+    docker compose up -d --build
+    ```
+
+4.  **Install PHP dependencies:**
+    ```bash
+    docker compose exec app composer install
+    ```
+
+5.  **Generate the application key:**
+    ```bash
+    docker compose exec app php artisan key:generate
+    ```
+
+6.  **Run database migrations:**
+    ```bash
+    docker compose exec app php artisan migrate
+    ```
+
+The application should now be running and accessible at [http://localhost:8080](http://localhost:8080).
+
+## Coding Standards
+
+This project follows the PSR-12 coding standard. To check for compliance, run the linter:
+
+```bash
+composer lint
+```
+
 
 ## About Laravel
 
