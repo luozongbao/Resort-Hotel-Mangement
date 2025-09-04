@@ -8,9 +8,9 @@ This document outlines the proposed technology stack for the Resort Hotel Manage
 -   **API Architecture**: **RESTful API** to provide a standardized interface for all client applications.
 
 ## 2.2. Frontend
--   **JavaScript Framework**: **Vue.js 3** or **React.js** - For building a modern, reactive, and interactive user interface for the main web/desktop application.
+-   **JavaScript Framework**: **Vue.js 3** - For building a modern, reactive, and interactive user interface for the main web/desktop application.
 -   **CSS Framework**: **Tailwind CSS** - A utility-first CSS framework that allows for rapid and consistent UI development.
--   **SPA Bridge**: **Inertia.js** - To connect the Laravel backend with the Vue.js/React frontend, creating a seamless single-page application (SPA) experience without the complexity of managing a separate API client.
+-   **SPA Bridge**: **Inertia.js** - To connect the Laravel backend with the Vue.js frontend, creating a seamless single-page application (SPA) experience without the complexity of managing a separate API client.
 
 ## 2.3. Database & Caching
 -   **Primary Database**: **MariaDB 10.6+** - A reliable, high-performance, and open-source relational database.
