@@ -1,0 +1,73 @@
+services:
+    #Laravel App
+    app:
+        build:
+            args:
+                user: user
+                uid: 1000
+            context: .
+            dockerfile: Dockerfile
+        image: resort-hotel-management/app
+        container_name: resort-hotel-management-app
+        restart: unless-stopped
+        tty: true
+        environment:
+            SERVICE_NAME: app
+            SERVICE_TAGS: dev
+        working_dir: /var/www
+        volumes:
+            - ./:/var/www
+            - ./docker-compose/laravel/local.ini:/usr/local/etc/php/conf.d/local.ini
+        networks:
+            - app-network
+
+    #Nginx
+    web:
+        image: nginx:alpine
+        container_name: resort-hotel-management-web
+        restart: unless-stopped
+        tty: true
+        ports:
+            - "8080:80"
+            - "443:443"
+        volumes:
+            - ./:/var/www
+            - ./docker-compose/nginx/conf.d/:/etc/nginx/conf.d/
+        networks:
+            - app-network
+
+    #MariaDB
+    db:
+        image: mariadb:10.6
+        container_name: resort-hotel-management-db
+        restart: unless-stopped
+        tty: true
+        ports:
+            - "33060:3306"
+        environment:
+            MYSQL_DATABASE: resort_hotel_management
+            MYSQL_USER: user
+            MYSQL_PASSWORD: password
+            MYSQL_ROOT_PASSWORD: password
+        volumes:
+            - dbdata:/var/lib/mysql
+        networks:
+            - app-network
+
+    #Redis
+    cache:
+        image: redis:latest
+        container_name: resort-hotel-management-cache
+        restart: unless-stopped
+        ports:
+            - "6379:6379"
+        networks:
+            - app-network
+
+networks:
+    app-network:
+        driver: bridge
+
+volumes:
+    dbdata:
+        driver: local
