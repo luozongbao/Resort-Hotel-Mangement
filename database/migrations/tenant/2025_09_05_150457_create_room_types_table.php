@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('name');
             $table->text('description')->nullable();
             $table->integer('capacity');
+            $table->json('amenities')->nullable();
             $table->timestamps();
         });
     }

@@ -13,6 +13,7 @@ class AccommodationLocation extends Model
     protected $fillable = [
         'name',
         'description',
+        'address',
     ];
 
     public function rooms()

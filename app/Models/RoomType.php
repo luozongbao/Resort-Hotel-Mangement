@@ -14,6 +14,11 @@ class RoomType extends Model
         'name',
         'description',
         'capacity',
+        'amenities',
+    ];
+
+    protected $casts = [
+        'amenities' => 'array',
     ];
 
     public function rooms()
