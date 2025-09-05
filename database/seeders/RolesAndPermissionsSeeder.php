@@ -15,7 +15,7 @@ class RolesAndPermissionsSeeder extends Seeder
     public function run(): void
     {
         // Reset cached roles and permissions
-        app()[PermissionRegistrar::class]->forgetCachedPermissions();
+        // app()[PermissionRegistrar::class]->forgetCachedPermissions();
 
         // create permissions
         $permissions = [
@@ -23,6 +23,10 @@ class RolesAndPermissionsSeeder extends Seeder
             'create-booking',
             'update-room-status',
             'manage-users',
+            'manage-accommodation-locations',
+            'manage-accommodation-types',
+            'manage-room-types',
+            'manage-rooms',
         ];
 
         foreach ($permissions as $permission) {

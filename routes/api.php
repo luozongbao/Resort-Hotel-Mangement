@@ -9,5 +9,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::prefix('v1')->group(function () {
     require __DIR__ . '/api/v1/auth.php';
+    require __DIR__ . '/api/v1/accommodation.php';
 });
 
