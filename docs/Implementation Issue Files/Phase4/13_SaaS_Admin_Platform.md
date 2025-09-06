@@ -6,6 +6,12 @@
 
 ---
 
+## Project Overview
+
+This project aims to build a comprehensive, multi-tenant SaaS platform for Resort Hotel Management. It will cover all major operations from booking and guest management to housekeeping and invoicing. This issue is a part of **Phase 4: Administration & Deployment** and focuses on building the central administration platform for the SaaS provider to manage tenants.
+
+---
+
 ## Description
 
 Create a basic administrative interface for the SaaS provider to manage customer (tenant) accounts. This is a separate "god-mode" interface from the main resort management application.

@@ -6,6 +6,12 @@
 
 ---
 
+## Project Overview
+
+This project aims to build a comprehensive, multi-tenant SaaS platform for Resort Hotel Management. It will cover all major operations from booking and guest management to housekeeping and invoicing. This issue is a part of **Phase 2: Core Operations** and focuses on creating the billing and invoicing system, a key component for revenue management.
+
+---
+
 ## Description
 
 Develop the system for generating invoices upon check-out. This includes calculating the total cost based on room rates, duration, and any additional services. The initial version will focus on the core calculation and invoice creation.

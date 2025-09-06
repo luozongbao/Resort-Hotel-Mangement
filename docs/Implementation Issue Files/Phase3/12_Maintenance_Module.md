@@ -6,6 +6,12 @@
 
 ---
 
+## Project Overview
+
+This project aims to build a comprehensive, multi-tenant SaaS platform for Resort Hotel Management. It will cover all major operations from booking and guest management to housekeeping and invoicing. This issue is a part of **Phase 3: Frontend & User Interfaces** and focuses on developing the user interface and backend logic for the maintenance staff.
+
+---
+
 ## Description
 
 Develop the core features for the Maintenance module. This includes API endpoints and a UI for technicians to view and manage repair tasks.

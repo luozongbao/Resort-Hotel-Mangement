@@ -6,6 +6,12 @@
 
 ---
 
+## Project Overview
+
+This project aims to build a comprehensive, multi-tenant SaaS platform for Resort Hotel Management. It will cover all major operations from booking and guest management to housekeeping and invoicing. This issue is a part of **Phase 2: Core Operations** and focuses on developing the core booking engine, a central piece of the resort's operational workflow.
+
+---
+
 ## Description
 
 Implement the core logic for creating and managing bookings. This includes checking for room availability, handling guest information, and creating the booking record.

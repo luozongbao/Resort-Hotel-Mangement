@@ -6,6 +6,12 @@
 
 ---
 
+## Project Overview
+
+This project aims to build a comprehensive, multi-tenant SaaS platform for Resort Hotel Management. It will cover all major operations from booking and guest management to housekeeping and invoicing. This issue is a part of **Phase 2: Core Operations** and focuses on implementing the critical guest check-in and check-out workflows.
+
+---
+
 ## Description
 
 Implement the API endpoints and business logic for the guest check-in and check-out processes. This is a critical operational workflow.

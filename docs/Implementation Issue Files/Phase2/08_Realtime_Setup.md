@@ -6,6 +6,12 @@
 
 ---
 
+## Project Overview
+
+This project aims to build a comprehensive, multi-tenant SaaS platform for Resort Hotel Management. It will cover all major operations from booking and guest management to housekeeping and invoicing. This issue is a part of **Phase 2: Core Operations** and focuses on enabling real-time features, which will provide a dynamic and responsive user experience for operational dashboards.
+
+---
+
 ## Description
 
 Set up and configure the WebSocket server to enable real-time communication between the backend and frontend clients. This is essential for live dashboards and notifications.

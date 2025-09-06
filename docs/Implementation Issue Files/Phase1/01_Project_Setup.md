@@ -6,6 +6,12 @@
 
 ---
 
+## Project Overview
+
+This project aims to build a comprehensive, multi-tenant SaaS platform for Resort Hotel Management. It will cover all major operations from booking and guest management to housekeeping and invoicing. This initial phase focuses on establishing a robust and scalable foundation for the entire application.
+
+---
+
 ## Description
 
 This issue covers the initial setup of the Laravel project, configuration of the development environment using Docker, and establishing coding standards. This is the foundational step for the entire project.

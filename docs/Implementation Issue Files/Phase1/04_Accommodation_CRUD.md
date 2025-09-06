@@ -6,6 +6,12 @@
 
 ---
 
+## Project Overview
+
+This project aims to build a comprehensive, multi-tenant SaaS platform for Resort Hotel Management. It will cover all major operations from booking and guest management to housekeeping and invoicing. This issue is a part of **Phase 1: Core Foundation** and focuses on building the foundational features for managing the resort's physical accommodations.
+
+---
+
 ## Description
 
 This issue involves creating the foundational CRUD (Create, Read, Update, Delete) functionality for the core accommodation entities: Locations, Accommodation Types, Room Types, and Rooms.

@@ -6,6 +6,12 @@
 
 ---
 
+## Project Overview
+
+This project aims to build a comprehensive, multi-tenant SaaS platform for Resort Hotel Management. It will cover all major operations from booking and guest management to housekeeping and invoicing. This issue is a part of **Phase 1: Core Foundation** and focuses on implementing a secure authentication and authorization system, which is critical for protecting tenant data.
+
+---
+
 ## Description
 
 Implement a secure authentication system using JWT and a flexible Role-Based Access Control (RBAC) system for authorization. This will govern what actions users are allowed to perform throughout the application.

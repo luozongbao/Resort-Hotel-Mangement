@@ -6,6 +6,12 @@
 
 ---
 
+## Project Overview
+
+This project aims to build a comprehensive, multi-tenant SaaS platform for Resort Hotel Management. It will cover all major operations from booking and guest management to housekeeping and invoicing. This issue is a part of **Phase 1: Core Foundation** and focuses on establishing the multi-tenant database architecture, which is a core requirement for a SaaS application.
+
+---
+
 ## Description
 
 This issue involves implementing the multi-tenant database architecture. This includes creating the central `public` schema for managing tenants and the mechanism to automatically create and migrate tenant-specific schemas.

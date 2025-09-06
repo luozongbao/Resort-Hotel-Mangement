@@ -6,6 +6,12 @@
 
 ---
 
+## Project Overview
+
+This project aims to build a comprehensive, multi-tenant SaaS platform for Resort Hotel Management. It will cover all major operations from booking and guest management to housekeeping and invoicing. This issue is a part of **Phase 3: Frontend & User Interfaces** and focuses on creating the main operational dashboard, which provides a real-time view of the resort's status.
+
+---
+
 ## Description
 
 Develop the `RoomStatusGrid.vue` component as specified in the Low-Level Design. This component is the primary visual tool for front desk and management to see the current state of the resort at a glance.

@@ -6,6 +6,12 @@
 
 ---
 
+## Project Overview
+
+This project aims to build a comprehensive, multi-tenant SaaS platform for Resort Hotel Management. It will cover all major operations from booking and guest management to housekeeping and invoicing. This issue is a part of **Phase 3: Frontend & User Interfaces** and focuses on building the frontend foundation, including the user interface framework and authentication flow.
+
+---
+
 ## Description
 
 Set up the frontend application using Vue.js (or React) and Inertia.js. This includes creating the basic layout, setting up API communication, and implementing the login flow.

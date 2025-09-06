@@ -6,6 +6,12 @@
 
 ---
 
+## Project Overview
+
+This project aims to build a comprehensive, multi-tenant SaaS platform for Resort Hotel Management. It will cover all major operations from booking and guest management to housekeeping and invoicing. This issue is a part of **Phase 4: Administration & Deployment** and focuses on establishing the automated deployment pipeline, which is critical for reliable and efficient software delivery.
+
+---
+
 ## Description
 
 Establish an automated Continuous Integration and Continuous Deployment (CI/CD) pipeline. This will automate testing and deployment, improving reliability and development speed.
